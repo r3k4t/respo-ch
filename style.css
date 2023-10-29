@@ -1,0 +1,55 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+
+
+
+.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+
+/* carousel */
+
+.carousel-inner img {
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+    min-height:200px;
+}
+
+
+@media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+
+
+  /* navbar-center */
+
+
+@media (min-width: 768px){
+    .navbar-center{
+        float:none;
+        margin: 0 auto;
+        display: table;
+        table-layout: fixed;
+    }
+}
+
+
+.rahatkhantusar{
+  text-decoration: none;
+  
+}
+
+.love-symbol{
+  color: red;
+}
+
+
